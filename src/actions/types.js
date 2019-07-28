@@ -1,0 +1,1 @@
+export const ADD_TASK = 'add_task' //Arbitrary strings for action names
