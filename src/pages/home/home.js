@@ -4,6 +4,7 @@ import {bindActionCreators} from 'redux';
 import './home.css'
 import {addTask} from '../../actions/tasks'
 import {PropTypes} from 'prop-types'
+import Background from '../../components/background/background'
 
 class Home extends Component {
     constructor(props) {
@@ -40,6 +41,7 @@ class Home extends Component {
         return (
           <>
             <h1>Homepage</h1>
+            <Background></Background>
             <hr />
             <ul>
                 {this.renderTasks()}
