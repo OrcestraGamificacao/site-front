@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux';
 import './home.css'
-import { addTask } from '../../actions/tasks'
-import { PropTypes } from 'prop-types'
+import {addTask} from '../../actions/tasks'
+import {PropTypes} from 'prop-types'
+import HomeBanner from '../../components/homeBanner/homeBanner'
 
 class Home extends Component {
     constructor(props) {
@@ -40,6 +41,7 @@ class Home extends Component {
         return (
             <>
                 <h1>Homepage</h1>
+                <HomeBanner></HomeBanner>
                 <hr />
                 <div className="group-icons">
                     <a className="space-icon" href="https://www.instagram.com/orcestragamificacao/?hl=pt-br" target="_blank">
