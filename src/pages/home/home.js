@@ -6,6 +6,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import {addTask} from '../../actions/tasks'
 import {PropTypes} from 'prop-types'
 import HomeBanner from '../../components/homeBanner/homeBanner'
+import CardsExplicativos from '../../components/explicativescards/explicativescard';
 
 class Home extends Component {
     constructor(props) {
@@ -45,6 +46,7 @@ class Home extends Component {
                 <Navbar></Navbar>
                 <h1>Homepage</h1>
                 <HomeBanner></HomeBanner>
+                <CardsExplicativos></CardsExplicativos>
                 <hr />
                 <ul>
                     {this.renderTasks()}

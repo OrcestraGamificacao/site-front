@@ -1,0 +1,9 @@
+.cards-explicativos {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    width: 95%;
+    min-height: 200px;
+}
