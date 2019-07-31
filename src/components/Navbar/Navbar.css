@@ -1,0 +1,17 @@
+.navbar-bg-color {
+    background-color: #efefef;
+    position: fixed;
+    width: 100%;
+}
+
+.logo-navbar {
+    width: 100%;
+}
+ .resize-logo {
+     width: 10%;
+ }
+
+ .navbar-toggler-icon {
+     background-image: url('../../assets/images/hamburguer.svg');
+     background-size: 80%;
+ }

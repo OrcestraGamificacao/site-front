@@ -2,9 +2,10 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux';
 import './home.css'
-import { addTask } from '../../actions/tasks'
-import { PropTypes } from 'prop-types'
 import Background from '../../components/background/background'
+import Navbar from '../../components/Navbar/Navbar'
+import {addTask} from '../../actions/tasks'
+import {PropTypes} from 'prop-types'
 import HomeBanner from '../../components/homeBanner/homeBanner'
 
 class Home extends Component {
@@ -40,7 +41,9 @@ class Home extends Component {
             task_id: counter
         }
         return (
+
             <>
+                <Navbar></Navbar>
                 <h1>Homepage</h1>
                 <div className="landing-section">
                     <Background></Background>

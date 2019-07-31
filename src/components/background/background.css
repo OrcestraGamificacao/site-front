@@ -1,10 +1,12 @@
 .home-background {
+    margin-top: 2%;
     width: 95%;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    z-index: -1;
 }
 
 .bg-image {
@@ -13,7 +15,7 @@
 
 .layer {
     position: absolute;
-    width: 96%;
+    width: 100%;
     top: 26%;
     z-index: 999;
     padding: 2%;
