@@ -5,6 +5,8 @@
 }
 
 .logo-navbar {
-    width: 10%;
-    height: 10%;
+    width: 100%;
 }
+ .resize-logo {
+     width: 10%;
+ }
