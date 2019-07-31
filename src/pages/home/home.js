@@ -5,6 +5,7 @@ import './home.css'
 import {addTask} from '../../actions/tasks'
 import {PropTypes} from 'prop-types'
 import HomeBanner from '../../components/homeBanner/homeBanner'
+import AboutUs from '../../components/aboutUs/aboutUs'
 
 class Home extends Component {
     constructor(props) {
@@ -56,6 +57,8 @@ class Home extends Component {
                 >
                     Adicionar Task
             </button>
+
+            <AboutUs></AboutUs>
             </>
         );
     }
