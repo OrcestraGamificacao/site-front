@@ -13,7 +13,7 @@
 
 .layer {
     position: absolute;
-    width: 96%;
+    width: 100%;
     top: 26%;
     z-index: 999;
     padding: 2%;
