@@ -9,9 +9,12 @@ class Navbar extends Component {
     }
 
     render() {
+        const logo=require('../../assets/images/Orc_estra_Logo1_horizontalEXP2.svg')
         return(
         <nav className="navbar navbar-expand-lg navbar-bg-color">
-            <a className="navbar-brand" href="#">Navbar</a>
+            <a className="navbar-brand resize-logo" href="#"> 
+                <img className="logo-navbar" src={logo}/>
+            </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
