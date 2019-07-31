@@ -1,16 +1,8 @@
-.blackLine {
-
-    text-indent: 50px;
-
+.about-us {
+    
+    /* text-indent: 100px; */
     text-transform: uppercase;
-    
-    height: 10em;
-
-    margin-top: 50px;
-
+    height: 8em;
     background-color:#18201b;
-
     color: white;
-
-    
 }
