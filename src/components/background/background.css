@@ -1,7 +1,10 @@
 .home-background {
     width: 95%;
     position: relative;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .bg-image {
@@ -10,10 +13,18 @@
 
 .layer {
     position: absolute;
-    width: 90%;
-    top: 15%;
+    width: 96%;
+    top: 26%;
     z-index: 999;
-    padding: 5%;
+    padding: 2%;
     background-color: #64646496;
 
+}
+
+.media-buttons {
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    right: 0;
+    z-index: 999;
 }
