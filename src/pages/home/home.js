@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux';
 import './home.css'
+import Navbar from '../../components/Navbar/Navbar'
 import {addTask} from '../../actions/tasks'
 import {PropTypes} from 'prop-types'
 
@@ -39,6 +40,8 @@ class Home extends Component {
         }
         return (
           <>
+            <Navbar></Navbar>
+          
             <h1>Homepage</h1>
             <hr />
             <ul>
