@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
-import {connect} from 'react-redux'
-import {bindActionCreators} from 'redux';
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux';
 import './home.css'
 import {addTask} from '../../actions/tasks'
 import {PropTypes} from 'prop-types'
@@ -29,7 +29,7 @@ class Home extends Component {
             )
         })
     }
-    
+
     render() {
         let counter = 2
         const newTask = {
@@ -39,24 +39,24 @@ class Home extends Component {
             task_id: counter
         }
         return (
-          <>
-            <h1>Homepage</h1>
-            <HomeBanner></HomeBanner>
-            <hr />
-            <ul>
-                {this.renderTasks()}
-            </ul>
-            <hr />
-            <button
-              className="the-button"
-              onClick={() => {
-                this.props.addTask(newTask);
-                counter += 1;
-              }}
-            >
-              Adicionar Task
+            <>
+                <h1>Homepage</h1>
+                <HomeBanner></HomeBanner>
+                <hr />
+                <ul>
+                    {this.renderTasks()}
+                </ul>
+                <hr />
+                <button
+                    className="the-button"
+                    onClick={() => {
+                        this.props.addTask(newTask);
+                        counter += 1;
+                    }}
+                >
+                    Adicionar Task
             </button>
-          </>
+            </>
         );
     }
 }
