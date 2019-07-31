@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux';
 import './home.css'
-import {addTask} from '../../actions/tasks'
-import {PropTypes} from 'prop-types'
+import { addTask } from '../../actions/tasks'
+import { PropTypes } from 'prop-types'
 import Background from '../../components/background/background'
 import HomeBanner from '../../components/homeBanner/homeBanner'
 
@@ -40,11 +40,12 @@ class Home extends Component {
             task_id: counter
         }
         return (
-          <>
-            <h1>Homepage</h1>
-            <Background></Background>
+            <>
                 <h1>Homepage</h1>
-                <HomeBanner></HomeBanner>
+                <div className="landing-section">
+                    <Background></Background>
+                </div>
+
                 <hr />
                 <ul>
                     {this.renderTasks()}

@@ -1,7 +1,19 @@
-.home-cave {
-    width: 110em;
-    
-}
 .home-background {
-    text-align: center;   
+    width: 95%;
+    position: relative;
+    display: inline-block;
+}
+
+.bg-image {
+    width: 100%;
+}
+
+.layer {
+    position: absolute;
+    width: 90%;
+    top: 15%;
+    z-index: 999;
+    padding: 5%;
+    background-color: #64646496;
+
 }
