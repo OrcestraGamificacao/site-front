@@ -4,8 +4,9 @@ import { bindActionCreators } from 'redux';
 import './home.css'
 import Background from '../../components/background/background'
 import Navbar from '../../components/Navbar/Navbar'
-import {addTask} from '../../actions/tasks'
-import {PropTypes} from 'prop-types'
+import Cards from '../../components/cards/Cards'
+import { addTask } from '../../actions/tasks'
+import { PropTypes } from 'prop-types'
 import HomeBanner from '../../components/homeBanner/homeBanner'
 
 class Home extends Component {
@@ -48,7 +49,17 @@ class Home extends Component {
                 <div className="landing-section">
                     <Background></Background>
                 </div>
+                <div className="explain-cards">
 
+                    <div className="col-sm-12">
+                        <div className="card">
+                            <div className="card-body">
+                                <h2 className="explain-card-title mt-2 mb-2">Benefícios da Gamificação</h2>
+                                <Cards></Cards>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <hr />
                 <ul>
                     {this.renderTasks()}
