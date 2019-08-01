@@ -19,3 +19,7 @@
  .button-text {
      font-weight: bold;
  }
+
+ li ~ li {
+    margin-right: 5px;
+ }
