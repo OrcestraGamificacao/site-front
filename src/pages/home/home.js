@@ -7,6 +7,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import {addTask} from '../../actions/tasks'
 import Statistics from '../../components/statistics/statistics';
 import Parceiros from '../../components/Parceiros/Parceiros'
+import Cards from '../../components/cards/Cards'
 
 class Home extends Component {
     renderTasks = () => {
@@ -40,9 +41,37 @@ class Home extends Component {
                 <div className="landing-section">
                     <Background/>
                 </div>
+<<<<<<< HEAD
                 <Parceiros/>
                 <Statistics/>
 
+=======
+                <div className="explain-cards">
+
+                    <div className="col-sm-12">
+                        <div className="card">
+                            <div className="card-body">
+                                <h2 className="explain-card-title mt-2 mb-2">Benefícios da Gamificação</h2>
+                                <Cards></Cards>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <ul>
+                    {this.renderTasks()}
+                </ul>
+                <hr />
+                <button
+                    className="the-button"
+                    onClick={() => {
+                        this.props.addTask(newTask);
+                        counter += 1;
+                    }}
+                >
+                    Adicionar Task
+            </button>
+>>>>>>> 4730259... adding cards
             </>
         );
     }
