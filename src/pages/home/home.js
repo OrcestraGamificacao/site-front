@@ -6,6 +6,7 @@ import Background from '../../components/background/background'
 import Navbar from '../../components/Navbar/Navbar'
 import {addTask} from '../../actions/tasks'
 import Statistics from '../../components/statistics/statistics';
+import Parceiros from '../../components/Parceiros/Parceiros'
 
 class Home extends Component {
     renderTasks = () => {
@@ -37,24 +38,11 @@ class Home extends Component {
             <>
                 <Navbar/>
                 <div className="landing-section">
-                    <Background></Background>
+                    <Background/>
                 </div>
+                <Parceiros/>
+                <Statistics/>
 
-                <hr />
-                <Statistics></Statistics>
-                <ul>
-                    {this.renderTasks()}
-                </ul>
-
-                <hr />
-
-                <button className="the-button"
-                        onClick={() => {
-                        this.props.addTask(newTask);
-                        counter += 1;
-                        }}>
-                    Adicionar Task
-                </button>
             </>
         );
     }
