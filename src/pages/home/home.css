@@ -5,3 +5,9 @@
     display: flex;
     justify-content: center;
 }
+.explain-card-title {
+    color: white;
+}
+.explain-cards {
+    background-image: '../../assets/images/greenBack.svg';
+}

@@ -8,6 +8,7 @@ import {addTask} from '../../actions/tasks'
 import Statistics from '../../components/statistics/statistics';
 import Parceiros from '../../components/Parceiros/Parceiros'
 import Cards from '../../components/cards/Cards'
+import ExplainingCards from '../../components/cards/explainingCards'
 
 class Home extends Component {
     renderTasks = () => {
@@ -41,11 +42,8 @@ class Home extends Component {
                 <div className="landing-section">
                     <Background/>
                 </div>
-<<<<<<< HEAD
                 <Parceiros/>
                 <Statistics/>
-
-=======
                 <div className="explain-cards">
 
                     <div className="col-sm-12">
@@ -57,21 +55,7 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
-                <hr />
-                <ul>
-                    {this.renderTasks()}
-                </ul>
-                <hr />
-                <button
-                    className="the-button"
-                    onClick={() => {
-                        this.props.addTask(newTask);
-                        counter += 1;
-                    }}
-                >
-                    Adicionar Task
-            </button>
->>>>>>> 4730259... adding cards
+                <ExplainingCards />
             </>
         );
     }
