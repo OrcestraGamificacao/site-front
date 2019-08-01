@@ -7,6 +7,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import {addTask} from '../../actions/tasks'
 import Statistics from '../../components/statistics/statistics';
 import Parceiros from '../../components/Parceiros/Parceiros'
+import SuccessCase from '../../components/successCase/successCase'
 
 class Home extends Component {
     renderTasks = () => {
@@ -40,9 +41,9 @@ class Home extends Component {
                 <div className="landing-section">
                     <Background/>
                 </div>
+                <SuccessCase/>
                 <Parceiros/>
                 <Statistics/>
-
             </>
         );
     }
