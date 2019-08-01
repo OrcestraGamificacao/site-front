@@ -5,17 +5,9 @@ import './home.css'
 import Background from '../../components/background/background'
 import Navbar from '../../components/Navbar/Navbar'
 import {addTask} from '../../actions/tasks'
-import {PropTypes} from 'prop-types'
-import HomeBanner from '../../components/homeBanner/homeBanner';
 import Statistics from '../../components/statistics/statistics';
 
 class Home extends Component {
-    constructor(props) {
-        super(props)
-
-        console.log(props)
-    }
-
     renderTasks = () => {
         return this.props.tasks.map((item, index) => {
             return (
@@ -42,10 +34,8 @@ class Home extends Component {
             task_id: counter
         }
         return (
-
             <>
-                <Navbar></Navbar>
-                <h1>Homepage</h1>
+                <Navbar/>
                 <div className="landing-section">
                     <Background></Background>
                 </div>
@@ -55,16 +45,16 @@ class Home extends Component {
                 <ul>
                     {this.renderTasks()}
                 </ul>
+
                 <hr />
-                <button
-                    className="the-button"
-                    onClick={() => {
+
+                <button className="the-button"
+                        onClick={() => {
                         this.props.addTask(newTask);
                         counter += 1;
-                    }}
-                >
+                        }}>
                     Adicionar Task
-            </button>
+                </button>
             </>
         );
     }
