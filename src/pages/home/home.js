@@ -5,6 +5,9 @@ import './home.css'
 import Background from '../../components/background/background'
 import Navbar from '../../components/Navbar/Navbar'
 import {addTask} from '../../actions/tasks'
+import {PropTypes} from 'prop-types'
+import HomeBanner from '../../components/homeBanner/homeBanner'
+import BtnServices from '../../components/btnServices/BtnServices'
 import Statistics from '../../components/statistics/statistics';
 import Parceiros from '../../components/Parceiros/Parceiros'
 
@@ -40,9 +43,9 @@ class Home extends Component {
                 <div className="landing-section">
                     <Background/>
                 </div>
+                <BtnServices/>                
                 <Parceiros/>
                 <Statistics/>
-
             </>
         );
     }
