@@ -7,6 +7,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import {addTask} from '../../actions/tasks'
 import {PropTypes} from 'prop-types'
 import HomeBanner from '../../components/homeBanner/homeBanner'
+import BtnServices from '../../components/btnServices/BtnServices'
 
 class Home extends Component {
     constructor(props) {
@@ -45,15 +46,19 @@ class Home extends Component {
             <>
                 <Navbar></Navbar>
                 <h1>Homepage</h1>
+
                 <div className="landing-section">
                     <Background></Background>
                 </div>
 
                 <hr />
+                
                 <ul>
                     {this.renderTasks()}
                 </ul>
+
                 <hr />
+
                 <button
                     className="the-button"
                     onClick={() => {
@@ -62,7 +67,12 @@ class Home extends Component {
                     }}
                 >
                     Adicionar Task
-            </button>
+                </button>
+
+                <hr />
+    
+                <BtnServices></BtnServices>
+                    
             </>
         );
     }

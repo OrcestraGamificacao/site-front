@@ -1,0 +1,14 @@
+.btnServices{
+    font-weight: bold; 
+    font-size: 30px;  
+    color: white;
+    background-color: #7aaf50;
+    border-color: transparent;
+    border: 0;
+    border-radius: 2.5px;
+    padding: 7.51px 120px; 
+}
+
+.btnServices:active{
+    background-color: #4e783a;
+}
