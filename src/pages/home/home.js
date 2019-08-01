@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux';
 import './home.css'
+import Background from '../../components/background/background'
 import Navbar from '../../components/Navbar/Navbar'
 import {addTask} from '../../actions/tasks'
 import {PropTypes} from 'prop-types'
@@ -44,7 +45,10 @@ class Home extends Component {
             <>
                 <Navbar></Navbar>
                 <h1>Homepage</h1>
-                <HomeBanner></HomeBanner>
+                <div className="landing-section">
+                    <Background></Background>
+                </div>
+
                 <hr />
                 <ul>
                     {this.renderTasks()}

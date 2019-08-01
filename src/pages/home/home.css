@@ -1,3 +1,7 @@
 .the-button {
     margin-left: 5em;
 }
+.landing-section {
+    display: flex;
+    justify-content: center;
+}

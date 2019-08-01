@@ -1,0 +1,32 @@
+.home-background {
+    margin-top: 2%;
+    width: 95%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: -1;
+}
+
+.bg-image {
+    width: 100%;
+}
+
+.layer {
+    position: absolute;
+    width: 100%;
+    top: 26%;
+    z-index: 999;
+    padding: 2%;
+    background-color: #64646496;
+
+}
+
+.media-buttons {
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    right: 0;
+    z-index: 999;
+}
