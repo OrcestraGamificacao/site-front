@@ -11,6 +11,31 @@
 }
 
 .maps{
-    width: 100%;
-    height: 100%;
+    width: 30em;
+    height: 15em;
+    margin-bottom: 1em;
+}
+
+#social-networks-footers{
+    margin-right: 10em;
+}
+
+@media(max-width:600px){
+    .maps{
+        width: 20em;
+    }
+}
+
+.contact-btn{
+    font-weight: bold; 
+    font-size: 20px;  
+    color: white !important;
+    background-color: #7aaf50;
+    border-color: transparent;
+    border: 0;
+    border-radius: 2.5px; 
+}
+
+.contact-btn:active{
+    background-color: #4e783a;
 }

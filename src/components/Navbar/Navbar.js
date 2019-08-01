@@ -36,7 +36,7 @@ class Navbar extends Component {
                         </li>
                         <li className="nav-item">
                             <Link to="/about">
-                                <button type="button" className="btn btn-success button-text">
+                                <button type="button" className="diagnostic-btn button-text pl-4 pr-4">
                                     Diagnóstico Gratuito
                                 </button>
                             </Link>
