@@ -4,6 +4,7 @@ import {bindActionCreators} from 'redux';
 import './home.css'
 import {addTask} from '../../actions/tasks'
 import {PropTypes} from 'prop-types'
+import SuccessCase from '../../components/successCase/successCase'
 
 class Home extends Component {
     constructor(props) {
@@ -39,6 +40,7 @@ class Home extends Component {
         }
         return (
           <>
+            <SuccessCase></SuccessCase>
             <h1>Homepage</h1>
             <hr />
             <ul>
