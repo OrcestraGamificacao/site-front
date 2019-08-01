@@ -58,8 +58,8 @@ class Home extends Component {
                     }}
                 >
                     Adicionar Task
-              <SuccessCase></SuccessCase>
             </button>
+            <SuccessCase></SuccessCase>
             </>
         );
     }
