@@ -6,7 +6,7 @@ class Navbar extends Component {
     render() {
         const logo = require('../../assets/images/Orc_estra_Logo1_horizontalEXP2.svg')
         return (
-            <nav className="navbar navbar-expand-lg navbar-bg-color d-flex align-items-center">
+            <nav className="navbar navbar-expand-lg navbar-bg-color d-flex align-items-center sticky-top">
                 <Link to="/">
                     <a className="navbar-brand resize-logo">
                         <img className="logo-navbar" src={logo}/>

@@ -5,18 +5,10 @@ import './home.css'
 import Background from '../../components/background/background'
 import Navbar from '../../components/Navbar/Navbar'
 import {addTask} from '../../actions/tasks'
-import {PropTypes} from 'prop-types'
-import HomeBanner from '../../components/homeBanner/homeBanner';
 import Statistics from '../../components/statistics/statistics';
 import Parceiros from '../../components/Parceiros/Parceiros'
 
 class Home extends Component {
-    constructor(props) {
-        super(props)
-
-        console.log(props)
-    }
-
     renderTasks = () => {
         return this.props.tasks.map((item, index) => {
             return (
@@ -43,15 +35,14 @@ class Home extends Component {
             task_id: counter
         }
         return (
-
             <>
                 <Navbar/>
-                <h1>Homepage</h1>
                 <div className="landing-section">
                     <Background/>
                 </div>
                 <Parceiros/>
                 <Statistics/>
+
             </>
         );
     }
