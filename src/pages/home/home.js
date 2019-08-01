@@ -4,9 +4,10 @@ import { bindActionCreators } from 'redux';
 import './home.css'
 import Background from '../../components/background/background'
 import Navbar from '../../components/Navbar/Navbar'
-import { addTask } from '../../actions/tasks'
-import { PropTypes } from 'prop-types'
-import HomeBanner from '../../components/homeBanner/homeBanner'
+import {addTask} from '../../actions/tasks'
+import {PropTypes} from 'prop-types'
+import HomeBanner from '../../components/homeBanner/homeBanner';
+import Statistics from '../../components/statistics/statistics';
 import Parceiros from '../../components/Parceiros/Parceiros'
 
 class Home extends Component {
@@ -44,12 +45,13 @@ class Home extends Component {
         return (
 
             <>
-                <Navbar></Navbar>
+                <Navbar/>
                 <h1>Homepage</h1>
                 <div className="landing-section">
-                    <Background></Background>
+                    <Background/>
                 </div>
                 <Parceiros/>
+                <Statistics/>
             </>
         );
     }

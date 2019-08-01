@@ -7,11 +7,27 @@
 .logo-navbar {
     width: 100%;
 }
- .resize-logo {
-     width: 10%;
- }
 
- .navbar-toggler-icon {
-     background-image: url('../../assets/images/hamburguer.svg');
-     background-size: 80%;
- }
+.resize-logo {
+    width: 10%;
+}
+
+.navbar-toggler-icon {
+    background-image: url('../../assets/images/hamburguer.svg');
+    background-size: 80%;
+}
+
+.button-text {
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+li ~ li {
+    margin-left: 30px;
+}
+
+.navbar {
+    z-index: 9999
+}
