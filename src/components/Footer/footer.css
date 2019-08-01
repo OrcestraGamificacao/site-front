@@ -17,7 +17,7 @@
 }
 
 #social-networks-footers{
-    margin-right: 10em;
+    margin-right: 15em;
 }
 
 @media(max-width:600px){
@@ -38,4 +38,8 @@
 
 .contact-btn:active{
     background-color: #4e783a;
+}
+
+#footer-info{
+    margin-right: 10em;
 }

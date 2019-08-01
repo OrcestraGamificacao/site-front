@@ -17,12 +17,11 @@ class Footer extends Component {
                                     <div className="footer-sub">
                                         <h3><b>Redes Sociais</b></h3>
                                     </div>
-
                                     <p><b>Facebook:</b>facebook/orcestra</p>
                                     <p><b>Instagram:</b>@orcestra</p>
                                     <p><b>LinkedIn:</b>@orcestra</p>
                                 </div>
-                                <div className="footer-content">
+                                <div className="footer-content" id="footer-info">
                                     <div className="footer-sub">
                                         <h3><b>Informações de Contato</b></h3>
                                     </div>
