@@ -1,19 +1,17 @@
-import './Cards'
-import React from 'react'
-import Cards from './Cards';
+import "./Cards";
+import React from "react";
+import Cards from "./Cards";
+import "./explainingCards.css"
 function ExplainingCards() {
-    const secondbg = require('../../assets/images/greenBack.svg')
-  return(      
-        < div className = "explain-cards" >
-            <div className="col-sm-12">
-                <div className="card">
-                    <div className="card-body">
-                        <h2 className="explain-card-title m-5">Benefícios da Gamificação</h2>
-                        <Cards />
-                    </div>
-                </div>
-            </div>
-    </div >
+  const secondbg = require("../../assets/images/greenBack.svg");
+  return (
+    <div className="card-background">
+      <img className="card-image" src={secondbg} />
+      <div className="layer-card">
+          <h2 className="explain-card-title mb-4 ">Benefícios da Gamificação</h2>
+          <Cards />
+      </div>
+    </div>
   );
 }
-export default ExplainingCards
+export default ExplainingCards;

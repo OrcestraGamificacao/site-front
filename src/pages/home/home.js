@@ -44,17 +44,7 @@ class Home extends Component {
                 </div>
                 <Parceiros/>
                 <Statistics/>
-                <div className="explain-cards">
-
-                    <div className="col-sm-12">
-                        <div className="card">
-                            <div className="card-body">
-                                <h2 className="explain-card-title mt-2 mb-2">Benefícios da Gamificação</h2>
-                                <Cards></Cards>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <ExplainingCards />
             </>
         );
