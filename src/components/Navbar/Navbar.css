@@ -1,0 +1,12 @@
+.navbar-bg-color {
+    background-color: #d3d3d3;
+    position: fixed;
+    width: 100%;
+}
+
+.logo-navbar {
+    width: 100%;
+}
+ .resize-logo {
+     width: 10%;
+ }
