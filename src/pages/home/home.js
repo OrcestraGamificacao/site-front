@@ -5,6 +5,9 @@ import './home.css'
 import Background from '../../components/background/background'
 import Navbar from '../../components/Navbar/Navbar'
 import {addTask} from '../../actions/tasks'
+import {PropTypes} from 'prop-types'
+import HomeBanner from '../../components/homeBanner/homeBanner'
+import BtnServices from '../../components/btnServices/BtnServices'
 import Statistics from '../../components/statistics/statistics';
 import Parceiros from '../../components/Parceiros/Parceiros'
 import SuccessCase from '../../components/successCase/successCase'
@@ -42,6 +45,7 @@ class Home extends Component {
                     <Background/>
                 </div>
                 <SuccessCase/>
+                <BtnServices/>                
                 <Parceiros/>
                 <Statistics/>
             </>
