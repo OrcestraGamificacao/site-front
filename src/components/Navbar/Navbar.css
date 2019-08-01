@@ -15,3 +15,7 @@
      background-image: url('../../assets/images/hamburguer.svg');
      background-size: 80%;
  }
+
+ .button-text {
+     font-weight: bold;
+ }
