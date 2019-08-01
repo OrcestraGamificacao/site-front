@@ -3,14 +3,14 @@
 }
 
 .parceiros-img {
-    width: 20em;
+    width: 20%;
     object-fit: contain;
     margin: 2em;
 }
 
 .parceiros-area {
-    padding-top: 8em;
-    padding-bottom: 8em;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 
 .parceiros-text {
@@ -24,14 +24,14 @@
 }
 
 #unb {
-    width: 8em;
+    width: 10%
 }
 
 #concentro {
-    width: 12em;
+    width: 15%;
 }
 
-@media (max-width: 1707px) {
+/* @media (max-width: 1707px) {
     .parceiros-img {
         width: 15em;
     }
@@ -43,7 +43,7 @@
     #concentro {
         width: 10em;
     }
-}
+} */
 
 @media (max-width: 820px) {
     .parceiros {
