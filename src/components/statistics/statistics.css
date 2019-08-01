@@ -1,0 +1,39 @@
+.bold {
+    font-weight: bold;
+}
+.background-color {
+    background-color: #18201B;
+}
+.container {
+    height: auto;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+@media (min-width:600px) {
+    .container {
+        font-size: 16px;
+    }
+    .text {
+        font-size: 34px !important;
+    }
+}
+
+@media (min-width:800px) {
+    .container {
+        font-size: 20px;
+    }
+    .text {
+        font-size: 38px !important;
+    }
+}
+
+@media (min-width:1000px) {
+    .container {
+        font-size: 22px;
+    }
+    .text {
+        font-size: 40px !important;
+    }
+}
