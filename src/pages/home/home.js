@@ -4,9 +4,10 @@ import { bindActionCreators } from 'redux';
 import './home.css'
 import Background from '../../components/background/background'
 import Navbar from '../../components/Navbar/Navbar'
-import {addTask} from '../../actions/tasks'
-import {PropTypes} from 'prop-types'
+import { addTask } from '../../actions/tasks'
+import { PropTypes } from 'prop-types'
 import HomeBanner from '../../components/homeBanner/homeBanner'
+import Parceiros from '../../components/Parceiros/Parceiros'
 
 class Home extends Component {
     constructor(props) {
@@ -48,21 +49,7 @@ class Home extends Component {
                 <div className="landing-section">
                     <Background></Background>
                 </div>
-
-                <hr />
-                <ul>
-                    {this.renderTasks()}
-                </ul>
-                <hr />
-                <button
-                    className="the-button"
-                    onClick={() => {
-                        this.props.addTask(newTask);
-                        counter += 1;
-                    }}
-                >
-                    Adicionar Task
-            </button>
+                <Parceiros/>
             </>
         );
     }

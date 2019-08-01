@@ -1,0 +1,63 @@
+.parceiros {
+    width: 95%;
+}
+
+.parceiros-img {
+    width: 20em;
+    object-fit: contain;
+    margin: 2em;
+}
+
+.parceiros-area {
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+.parceiros-text {
+    color: #18201B;
+    margin-bottom: 0;
+    margin-left: 5%;
+}
+
+.parceiros-imgs {
+    width: 75%;
+}
+
+#unb {
+    width: 8em;
+}
+
+#concentro {
+    width: 12em;
+}
+
+@media (max-width: 1707px) {
+    .parceiros-img {
+        width: 15em;
+    }
+
+    #unb {
+        width: 6em;
+    }
+
+    #concentro {
+        width: 10em;
+    }
+}
+
+@media (max-width: 820px) {
+    .parceiros {
+        flex-wrap: wrap;
+    }
+
+    .parceiros-text{
+        margin: auto;
+    }
+
+    .parceiros-imgs {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+}
