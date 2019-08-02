@@ -8,14 +8,13 @@ import {addTask} from '../../actions/tasks'
 import {PropTypes} from 'prop-types'
 import HomeBanner from '../../components/homeBanner/homeBanner'
 import BlogPosts from '../../components/blogPosts/blogPosts'
+import BtnServices from '../../components/btnServices/BtnServices'
+import Statistics from '../../components/statistics/statistics';
+import Parceiros from '../../components/Parceiros/Parceiros'
+import SuccessCase from '../../components/successCase/successCase'
+import AboutUs from '../../components/aboutUs/aboutUs' 
 
 class Home extends Component {
-    constructor(props) {
-        super(props)
-
-        console.log(props)
-    }
-
     renderTasks = () => {
         return this.props.tasks.map((item, index) => {
             return (
@@ -42,15 +41,16 @@ class Home extends Component {
             task_id: counter
         }
         return (
-
             <>
-                <Navbar></Navbar>
-                <h1>Homepage</h1>
+                <Navbar/>
                 <div className="landing-section">
                     <Background/>
                 </div>
-
-               <BlogPosts/>
+                <SuccessCase/>                
+                <AboutUs/>
+                <Parceiros/>
+                <Statistics/>
+                <BlogPosts/>
             </>
         );
     }
