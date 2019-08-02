@@ -43,3 +43,15 @@
 #footer-info{
     margin-right: 10em; 
 }
+
+.link-color{
+    color: white;
+}
+
+.link-color:active{
+    color: #7aaf50;
+}
+
+.link-color:hover{
+    color: #7aaf50;
+}

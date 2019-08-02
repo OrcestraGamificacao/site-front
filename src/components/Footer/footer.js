@@ -17,18 +17,18 @@ class Footer extends Component {
                                     <div className="footer-sub">
                                         <h3><b>Redes Sociais</b></h3>
                                     </div>
-                                    <p><b>Facebook:</b>facebook/orcestra</p>
-                                    <p><b>Instagram:</b>@orcestra</p>
-                                    <p><b>LinkedIn:</b>@orcestra</p>
+                                    <p><b>Facebook:</b> <a className="link-color" href="https://www.facebook.com/Orcestra.Ej/">facebook/orcestra</a></p>
+                                    <p><b>Instagram:</b> <a className="link-color" href="https://www.instagram.com/orcestragamificacao/">@orcestragamificacao</a></p>
+                                    <p><b>LinkedIn:</b> <a className="link-color" href="https://www.linkedin.com/company/orcestragamificacao/">@orcestragamificacao</a></p>
                                 </div>
                                 <div className="footer-content" id="footer-info">
                                     <div className="footer-sub">
                                         <h3><b>Informações de Contato</b></h3>
                                     </div>
-                                    <p><b>Telefone:</b>99999999</p>
-                                    <p><b>E-mail:</b>oaosakoskas</p>
-                                    <p><b>Endereço:</b>FGA</p>
-                                    <p><b>Cidade:</b>Gama DF</p>
+                                    <p><b>Telefone: </b>+55 (61) 99817-0441</p>
+                                    <p><b>E-mail: </b>contato@orcestra.com.br</p>
+                                    <p><b>Endereço: </b>ÁREA ESPECIAL DE INDÚSTRIA. <br />PROJEÇÃO A, UNB - DF - 480 GAMA LESTE - Container 13, 72444-240</p>
+                                    <p><b>Cidade: </b>Brasília - DF</p>
 
                                 </div>
                             </div>
