@@ -1,0 +1,15 @@
+.about-us {
+
+    background-color:#18201b;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#about_us_tag {
+    width: 14em;
+}
+
+#about_us_content {
+    width: 44em;
+}

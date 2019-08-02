@@ -11,6 +11,7 @@ import BtnServices from '../../components/btnServices/BtnServices'
 import Statistics from '../../components/statistics/statistics';
 import Parceiros from '../../components/Parceiros/Parceiros'
 import SuccessCase from '../../components/successCase/successCase'
+import AboutUs from '../../components/aboutUs/aboutUs' 
 
 class Home extends Component {
     renderTasks = () => {
@@ -45,6 +46,7 @@ class Home extends Component {
                     <Background/>
                 </div>
                 <SuccessCase/>                
+                <AboutUs/>
                 <Parceiros/>
                 <Statistics/>
             </>
