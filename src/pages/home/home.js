@@ -41,35 +41,14 @@ class Home extends Component {
         }
         return (
             <>
-<<<<<<< HEAD
-                <Navbar></Navbar>
-                <h1>Homepage</h1>
-                <HomeBanner></HomeBanner>
-                <hr />
-                <ul>
-                    {this.renderTasks()}
-                </ul>
-                <hr />
-                <button
-                    className="the-button"
-                    onClick={() => {
-                        this.props.addTask(newTask);
-                        counter += 1;
-                    }}
-                >
-                    Adicionar Task
-            </button>
-
-            <AboutUs></AboutUs>
-=======
                 <Navbar/>
                 <div className="landing-section">
                     <Background/>
                 </div>
                 <SuccessCase/>                
+                <AboutUs/>
                 <Parceiros/>
                 <Statistics/>
->>>>>>> 660ba02b9a54cb5f1354d7e14895d4a3d2667a81
             </>
         );
     }
