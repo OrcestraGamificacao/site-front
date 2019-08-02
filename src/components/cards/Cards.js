@@ -9,7 +9,7 @@ class Cards extends Component {
 
 
             <div className="row d-flex justify-content-around cards card-class">
-                <div className="col-sm-2">
+                <div className="col-sm-3">
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">ENGAJAMENTO</h5>
@@ -18,7 +18,7 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
                         </div>
                     </div>
                 </div>
-                <div className="col-sm-2">
+                <div className="col-sm-3">
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">MOTIVAÇÃO</h5>
@@ -27,7 +27,7 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
                         </div>
                     </div>
                 </div>
-                <div className="col-sm-2">
+                <div className="col-sm-3">
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">PRODUTIVIDADE</h5>
