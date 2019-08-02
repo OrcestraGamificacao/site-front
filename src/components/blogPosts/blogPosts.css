@@ -1,29 +1,61 @@
 .image {
-    height: auto;
+    height: 270px;
     border-radius: 5px 5px 0 0;
 }
 
 .smaller-image {
-    width: auto;
-    height: auto;
+    height: 130px;
     border-radius: 5px 5px 0 0;
 }
 
 .card-body {
-    width: auto;
-    height: 200px;
-    background-color: darkslateblue;
+    height: auto;
+    background-color: #18201b;
     border-radius: 0 0 5px 5px;
 }
 
-.card-center-left {
-    margin: 0 auto;
-    float: none; 
+.bigger-card {
+    height: 350px;
+}
+
+.smaller-card {
+    height: 170px;
+}
+
+.upper-card {
     margin-bottom: 10px;
 }
 
-.card-center-right {
-    margin: 0 auto;
-    float: none; 
-    margin-bottom: 10px;
+.smaller-body {
+    padding: 2px 5px 2px 5px;
+}
+
+.bigger-body {
+    padding: 5px 5px 5px 5px;
+}
+
+.vertical-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title {
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.bigger-text {
+    font-size: 26px !important;
+}
+
+.blog-title {
+    font-weight: bold;
+}
+
+.blog-title-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
