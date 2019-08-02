@@ -1,5 +1,16 @@
-.cards-secondbg {
-    width: 50%;
+.img-bg-cards {
+    width: 100%;
+}
+
+.big-card{
+  width: 100%;
+  background-color: #18201b;
+}
+
+.explain-cards {
+  width: 100%;
+  background-color: #18201b;
+
 }
 .card-background {
   
@@ -22,4 +33,10 @@
   width: 100%;
   z-index: 999;
 
+}
+
+#explain-card-title{
+  margin-top: 3em;
+  margin-bottom: 3em;
+  color: white;
 }

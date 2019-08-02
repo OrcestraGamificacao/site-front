@@ -7,6 +7,9 @@ import SocialMediaButtons from '../socialMediaButtons/socialMediaButtons'
 function Background(){ 
     return (
         <div className="home-background">
+            <div className="Colors" >
+                <div className="White"></div>         
+            </div>
             <img className="bg-image" src={BackgroundImage}/>
             <div className="media-buttons" >
                 <SocialMediaButtons/>
