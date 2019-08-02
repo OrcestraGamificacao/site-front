@@ -4,18 +4,13 @@ import { bindActionCreators } from 'redux';
 import './home.css'
 import Background from '../../components/background/background'
 import Navbar from '../../components/Navbar/Navbar'
-<<<<<<< HEAD
 import ExplainingCards from '../../components/cards/explainingCards'
 import { addTask } from '../../actions/tasks'
 import { PropTypes } from 'prop-types'
 import HomeBanner from '../../components/homeBanner/homeBanner'
-=======
-import {addTask} from '../../actions/tasks'
 import Statistics from '../../components/statistics/statistics';
 import Parceiros from '../../components/Parceiros/Parceiros'
 import Cards from '../../components/cards/Cards'
-import ExplainingCards from '../../components/cards/explainingCards'
->>>>>>> 2489202c554dc8247af47e05f2967a70ec71a66a
 
 class Home extends Component {
     renderTasks = () => {
