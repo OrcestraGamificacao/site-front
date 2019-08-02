@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.case {
+   background-color: black;
+   margin: 30px 30px;
+}
+
+.case-image {
+   width: 30% !important;
+   margin: auto;
+}
+
+.case-body {
+   padding: 0 10px 5px 10px !important;
+   margin: 5px !important; 
+}
+
+.case-text {
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1rem;
+}
