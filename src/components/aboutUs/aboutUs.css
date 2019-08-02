@@ -1,8 +1,20 @@
 .about-us {
     
-    /* text-indent: 100px; */
     text-transform: uppercase;
     height: 8em;
     background-color:#18201b;
     color: white;
+}
+
+#about_us_tag {
+
+    /* padding: 2.5%; */
+    
+
+}
+
+#about_us_content {
+
+    /* padding: 1.8%; */
+
 }

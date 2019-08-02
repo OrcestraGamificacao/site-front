@@ -2,19 +2,18 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux';
 import './home.css'
+import Background from '../../components/background/background'
 import Navbar from '../../components/Navbar/Navbar'
 import {addTask} from '../../actions/tasks'
 import {PropTypes} from 'prop-types'
 import HomeBanner from '../../components/homeBanner/homeBanner'
-import AboutUs from '../../components/aboutUs/aboutUs'
+import BtnServices from '../../components/btnServices/BtnServices'
+import Statistics from '../../components/statistics/statistics';
+import Parceiros from '../../components/Parceiros/Parceiros'
+import SuccessCase from '../../components/successCase/successCase'
+import AboutUs from '../../components/aboutUs/aboutUs' 
 
 class Home extends Component {
-    constructor(props) {
-        super(props)
-
-        console.log(props)
-    }
-
     renderTasks = () => {
         return this.props.tasks.map((item, index) => {
             return (
@@ -41,8 +40,8 @@ class Home extends Component {
             task_id: counter
         }
         return (
-
             <>
+<<<<<<< HEAD
                 <Navbar></Navbar>
                 <h1>Homepage</h1>
                 <HomeBanner></HomeBanner>
@@ -62,6 +61,15 @@ class Home extends Component {
             </button>
 
             <AboutUs></AboutUs>
+=======
+                <Navbar/>
+                <div className="landing-section">
+                    <Background/>
+                </div>
+                <SuccessCase/>                
+                <Parceiros/>
+                <Statistics/>
+>>>>>>> 660ba02b9a54cb5f1354d7e14895d4a3d2667a81
             </>
         );
     }
