@@ -44,7 +44,6 @@ class Home extends Component {
                 <div className="landing-section">
                     <Background/>
                 </div>
-                <BtnServices/>
                 <SuccessCase/>                
                 <Parceiros/>
                 <Statistics/>

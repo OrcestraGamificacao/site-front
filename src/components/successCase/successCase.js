@@ -9,6 +9,7 @@ import arrow from '../../assets/images/arrow.png'
 import orbitborda from '../../assets/images/orbitborda.png'
 import tecmecborda from '../../assets/images/tecmecborda.png'
 import Card from '../card/card'
+import BtnServices from '../btnServices/BtnServices'
 
 const cards = [{
   name: 'Faciplac',
@@ -48,6 +49,7 @@ function SuccessCase() {
             </div>
           </div>
         </div>
+        <BtnServices/>
       </div>
     </>
   )
