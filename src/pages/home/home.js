@@ -10,6 +10,7 @@ import HomeBanner from '../../components/homeBanner/homeBanner'
 import BtnServices from '../../components/btnServices/BtnServices'
 import Statistics from '../../components/statistics/statistics';
 import Parceiros from '../../components/Parceiros/Parceiros'
+import SuccessCase from '../../components/successCase/successCase'
 
 class Home extends Component {
     renderTasks = () => {
@@ -43,7 +44,7 @@ class Home extends Component {
                 <div className="landing-section">
                     <Background/>
                 </div>
-                <BtnServices/>                
+                <SuccessCase/>                
                 <Parceiros/>
                 <Statistics/>
             </>
