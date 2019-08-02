@@ -1,3 +1,25 @@
 .cards-secondbg {
     width: 50%;
 }
+.card-background {
+  
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.layer-card {
+  position: absolute;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  width: 100%;
+  z-index: 999;
+
+}
