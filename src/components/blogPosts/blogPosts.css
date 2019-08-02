@@ -1,0 +1,29 @@
+.image {
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.smaller-image {
+    width: auto;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+    width: auto;
+    height: 200px;
+    background-color: darkslateblue;
+    border-radius: 0 0 5px 5px;
+}
+
+.card-center-left {
+    margin: 0 auto;
+    float: none; 
+    margin-bottom: 10px;
+}
+
+.card-center-right {
+    margin: 0 auto;
+    float: none; 
+    margin-bottom: 10px;
+}
