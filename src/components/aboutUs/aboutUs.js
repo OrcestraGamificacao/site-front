@@ -8,7 +8,7 @@ function AboutUs() {
             <div className="d-flex justify-content-around align-items-center">
                 <div className="" id="about_us_tag">
                     <h1 className="mb-0" >
-                        sobre nós
+                        SOBRE NÓS
                     </h1>
                 </div>
                 <div id="about_us_content">
