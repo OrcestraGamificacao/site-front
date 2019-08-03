@@ -5,12 +5,16 @@ import './home.css'
 import Background from '../../components/background/background'
 import Navbar from '../../components/Navbar/Navbar'
 import ExplainingCards from '../../components/cards/explainingCards'
-import { addTask } from '../../actions/tasks'
-import { PropTypes } from 'prop-types'
 import HomeBanner from '../../components/homeBanner/homeBanner'
+import Cards from '../../components/cards/Cards'
+import {addTask} from '../../actions/tasks'
+import {PropTypes} from 'prop-types'
+import HomeBanner from '../../components/homeBanner/homeBanner'
+import BtnServices from '../../components/btnServices/BtnServices'
 import Statistics from '../../components/statistics/statistics';
 import Parceiros from '../../components/Parceiros/Parceiros'
-import Cards from '../../components/cards/Cards'
+import SuccessCase from '../../components/successCase/successCase'
+import AboutUs from '../../components/aboutUs/aboutUs' 
 
 class Home extends Component {
     renderTasks = () => {
@@ -59,9 +63,11 @@ class Home extends Component {
                 >
                     Adicionar Task
             </button>
+                <BtnServices/>                
+                <SuccessCase/>                
+                <AboutUs/>
                 <Parceiros/>
                 <Statistics/>
-                
             </>
         );
     }
