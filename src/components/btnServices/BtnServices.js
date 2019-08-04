@@ -8,9 +8,11 @@ class BtnServices extends Component {
 
     render(){
         return(
-            <div className="text-center">
-                <input className="btnServices" type="button" value="Como fazemos isso?"></input>
-            </div>
+            
+        <div className="text-center">
+            <input className="btnServices" type="button" value="Como fazemos isso?"></input>
+        </div>
+
         );
     }
 }
