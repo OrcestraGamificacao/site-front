@@ -47,21 +47,6 @@ class Home extends Component {
                     <Background/>
                 </div>
 
-                <hr />
-                <ul>
-                    {this.renderTasks()}
-                </ul>
-                <hr />
-                <button
-                    className="the-button"
-                    onClick={() => {
-                        this.props.addTask(newTask);
-                        counter += 1;
-                    }}
-                >
-                    Adicionar Task
-            </button>
-
                 <BtnServices/>                
                 <SuccessCase/>                
                 <AboutUs/>

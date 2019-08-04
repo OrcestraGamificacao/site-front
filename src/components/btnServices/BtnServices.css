@@ -1,14 +1,22 @@
 .btnServices{
     font-weight: bold; 
-    font-size: 30px;  
-    color: white;
-    background-color: #7aaf50;
+    font-size: 150%;
+    color: white !important;
+    background-color: #7aaf50 ;
     border-color: transparent;
     border: 0;
     border-radius: 2.5px;
-    padding: 7.51px 120px; 
     margin-top: 15px;
+    width: 50%;
+    height: 2.5em;
 }
+
+@media (max-width: 300px) {
+    .btnServices{
+        font-size: 12px;
+    }
+}
+
 
 .btnServices:active{
     background-color: #4e783a;
