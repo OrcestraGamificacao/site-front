@@ -1,0 +1,19 @@
+.benefits-section {
+    border: 1px solid red;
+    text-align: center;
+    padding: .5em;
+    background-color: #18201b;
+    color: #fefefe
+}
+
+.benefits-section h2 {
+    font-weight: bold;
+}
+
+.benefits-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
