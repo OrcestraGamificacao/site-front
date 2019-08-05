@@ -8,6 +8,7 @@
     max-width: 15em;
     position: relative;
     box-shadow: 0 .5em 1em rgba(0,0,0,150);
+    border-radius: .3em;
 }
 
 .benefit-card h3 {
