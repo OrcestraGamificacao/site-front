@@ -49,8 +49,7 @@ class Home extends Component {
 
                 <BenefitsSection />
 
-                <BtnServices/>                
-                <SuccessCase/>                
+                <SuccessCase/>
                 <AboutUs/>
                 <Parceiros/>
                 <Statistics/>

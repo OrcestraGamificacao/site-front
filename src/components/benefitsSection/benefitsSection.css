@@ -1,9 +1,16 @@
 .benefits-section {
-    border: 1px solid red;
     text-align: center;
-    padding: .5em;
+    padding: 1em;
     background-color: #18201b;
-    color: #fefefe
+    color: #fefefe;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.benefits-section + .benefits-end {
+    max-width: 100vw;
+    background-image: url('../../assets/images/section_end_green.png');
+    height: 208px; /* 200px é a altura da imagem*/
 }
 
 .benefits-section h2 {

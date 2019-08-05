@@ -1,5 +1,4 @@
 .benefit-card {
-    border: 1px solid purple;
     background-color: #f4efb5;
     color: #18201b;
     padding: 1em;
@@ -13,20 +12,20 @@
 
 .benefit-card h3 {
     font-weight: bold;
+    padding-bottom: .5em;
 }
 
 .benefit-card .card-icon {
     width: 3em;
     height: 3em;
     position: absolute;
-    border: 1px solid blue;
     left: -1.5em;
     top: -1.5em;
     border-radius: 50%;
-    background-color: #f4efb5;
+    background-color: #faf18e;
 }
 
 .benefit-card .card-icon img {
     max-width: 80%;
-    padding: .2em;
+    padding: .5em;
 }
