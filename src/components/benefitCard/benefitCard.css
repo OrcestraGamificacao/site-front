@@ -1,0 +1,32 @@
+.benefit-card {
+    border: 1px solid purple;
+    background-color: #f4efb5;
+    color: #18201b;
+    padding: 1em;
+    margin: 2em;
+    min-height: 15em;
+    min-width: 7.5em;
+    max-width: 15em;
+    position: relative;
+    box-shadow: 0 .5em 1em rgba(0,0,0,150);
+}
+
+.benefit-card h3 {
+    font-weight: bold;
+}
+
+.benefit-card .card-icon {
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    border: 1px solid blue;
+    left: -1.5em;
+    top: -1.5em;
+    border-radius: 50%;
+    background-color: #f4efb5;
+}
+
+.benefit-card .card-icon img {
+    max-width: 80%;
+    padding: .2em;
+}
