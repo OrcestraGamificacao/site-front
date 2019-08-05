@@ -22,6 +22,8 @@ const benefits = [
   }
 ];
 
+const sectionEnd = require("../../assets/images/section_end_green.svg");
+
 class BenefitsSection extends Component {
 
     renderCards = () => {
@@ -52,7 +54,7 @@ class BenefitsSection extends Component {
                 <BtnServices />
 
             </section>
-            <div className='benefits-end' />
+            <img src={sectionEnd} alt='section end' className='benefits-end'/>
             </>
         )
     }

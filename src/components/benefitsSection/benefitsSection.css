@@ -5,13 +5,14 @@
     color: #fefefe;
     position: relative;
     box-sizing: border-box;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: 0;
 }
 
 .benefits-section + .benefits-end {
-    width: 100vw;
-    background-image: url('../../assets/images/section_end_green.svg');
-    height: 208px; /* 200px é a altura da imagem*/
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
 }
 
 .benefits-section h2 {
