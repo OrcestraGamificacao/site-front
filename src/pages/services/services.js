@@ -13,9 +13,9 @@ class Services extends Component {
          <>
             <NavBar/>
             <div className="container-fluid background-services">
-               <h1 className="title-service text-center">Entenda um pouco sobre nossos serviços!</h1>
+               <h1 className="title-service text-center col-md-6">Entenda um pouco sobre nossos serviços!</h1>
                <div className="service row justify-content-md-center">
-                  <img className="img-service float-left" src={group} alt="group"/>
+                  <img className="img-service float-left img-fluid" src={group} alt="group"/>
                   <div className="desc-service float-left">
                      <h2 className="title-desc-service text-center">
                         Design da Gamificação

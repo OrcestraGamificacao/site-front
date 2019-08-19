@@ -1,15 +1,15 @@
 .background-services {
    width: 100% !important;
    height: 100% !important;
-   background-color: black;
+   background-color: #18201B;
 }
 
 .title-service {
    padding: 50px;
    margin: auto;
-   width: 600px;
    color: white;
    font-weight: bold;
+   font-size: 3rem;
 }
 
 .service {
@@ -17,8 +17,14 @@
 }
 
 .img-service {
-   margin: 0 50px;
+   margin: 0 0;
    width: 20rem;
+   height: auto;
+}
+
+.cred-img-service {
+   font-size: 0.8rem;
+   color: white;
 }
 
 .desc-service {
