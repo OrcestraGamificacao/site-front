@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './BtnServices.css'
+import {Link} from 'react-router-dom'
+
 
 class BtnServices extends Component {
     constructor(props){
@@ -10,7 +12,7 @@ class BtnServices extends Component {
         return(
             
         <div className="text-center">
-            <input className="btnServices" type="button" value="Como fazemos isso?"></input>
+            <Link to="/services"><input className="btnServices" type="button" value="Como fazemos isso?"></input></Link>
         </div>
 
         );
