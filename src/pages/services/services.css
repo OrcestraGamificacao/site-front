@@ -17,14 +17,19 @@
 }
 
 .img-service {
-   margin: 0 0;
+   margin: 0;
    width: 20rem;
    height: auto;
 }
 
 .cred-img-service {
-   font-size: 0.8rem;
+   font-size: 0.5rem;
    color: white;
+}
+
+.cred-img-service:hover {
+   text-decoration-line: none;
+   color: #28a745;
 }
 
 .desc-service {

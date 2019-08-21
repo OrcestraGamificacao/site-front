@@ -15,7 +15,7 @@ class Services extends Component {
             <div className="container-fluid background-services">
                <h1 className="title-service text-center col-md-6">Entenda um pouco sobre nossos serviços!</h1>
                <div className="service row justify-content-md-center">
-                  <img className="img-service float-left img-fluid" src={group} alt="group"/>
+                  <img className="img-service float-md-left img-fluid" src={group} alt="group"/>
                   <div className="desc-service float-left">
                      <h2 className="title-desc-service text-center">
                         Design da Gamificação
@@ -56,7 +56,10 @@ class Services extends Component {
                         Identificamos problemas e sugerimos melhorias em gamificações já existentes ou ainda em andamento.
                      </p>
                   </div>
-                  <img className="img-service float-left" src={group3} alt="group"/>
+                  <div className="float-left">
+                     <img className="img-service" src={group3} alt="group"/><br/>
+                     <p className="text-right"><a className="cred-img-service" href="https://br.freepik.com/fotos-vetores-gratis/negocio">Crédito das imagens: Macrovector - br.freepik.com</a></p>
+                  </div>
                </div>
             </div>
          </>
