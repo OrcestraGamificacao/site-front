@@ -1,0 +1,50 @@
+.background-services {
+   width: 100% !important;
+   height: 100% !important;
+   background-color: #18201B;
+}
+
+.title-service {
+   padding: 50px 0 30px 0;
+   margin: auto;
+   color: white;
+   font-weight: bold;
+   font-size: 3rem;
+}
+
+.service {
+   margin: 50px 0 100px 0;
+}
+
+.img-service {
+   margin: 0;
+   width: 20rem;
+   height: auto;
+}
+
+.cred-img-service {
+   font-size: 0.7rem;
+   color: white;
+}
+
+.cred-img-service:hover {
+   text-decoration-line: none;
+   color: #28a745;
+}
+
+.desc-service {
+   width: 330px;
+   margin: 0 50px;
+}
+
+.title-desc-service {
+   margin: 30px 0;
+   font-weight: bold;
+   color: white !important; 
+}
+
+.text-desc-service {
+   margin: 30px 0;
+   color: white;
+   font-size: 1.3rem;
+}
