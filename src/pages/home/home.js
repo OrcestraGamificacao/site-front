@@ -4,6 +4,8 @@ import { bindActionCreators } from 'redux';
 import './home.css'
 import Background from '../../components/background/background'
 import Navbar from '../../components/Navbar/Navbar'
+import ExplainingCards from '../../components/cards/explainingCards'
+import Cards from '../../components/cards/Cards'
 import {addTask} from '../../actions/tasks'
 import {PropTypes} from 'prop-types'
 import HomeBanner from '../../components/homeBanner/homeBanner'
@@ -45,7 +47,21 @@ class Home extends Component {
                 <div className="landing-section">
                     <Background/>
                 </div>
-
+                    <ExplainingCards />
+                <hr />
+                <ul>
+                    {this.renderTasks()}
+                </ul>
+                <hr />
+                <button
+                    className="the-button"
+                    onClick={() => {
+                        this.props.addTask(newTask);
+                        counter += 1;
+                    }}
+                >
+                    Adicionar Task
+            </button>
                 <BtnServices/>                
                 <SuccessCase/>                
                 <AboutUs/>
