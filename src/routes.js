@@ -1,9 +1,10 @@
-import React from 'react'
-import App, { About, Portfolio, Blog } from './components/App'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Home from './pages/home/home'
-import ScrollToTop from './components/scrollToTop/scrollToTop'
-import Services from './pages/services/services'
+import React from 'react';
+import App, { About, Portfolio, Blog, } from './components/App';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from './pages/home/home';
+import ScrollToTop from './components/scrollToTop/scrollToTop';
+import Services from './pages/services/services';
+import ContactForm from './pages/contact/contact';
 
 const Routes = () => {
     return (
@@ -15,6 +16,7 @@ const Routes = () => {
                 <Route exact path='/services' component={Services} />
                 <Route exact path='/portfolio' component={About} />
                 <Route exact path='/blog' component={About} />
+                <Route exact path='/contact' component={ContactForm} />
                 </ScrollToTop>
             </Switch>
         </BrowserRouter>
