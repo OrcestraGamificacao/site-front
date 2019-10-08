@@ -29,7 +29,7 @@ function ContactForm() {
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Mensagem"></textarea>
                             </div>
                             <div className="text-right">
-                                <button type="submit" class="btn submit-button">Enviar</button>
+                                <button type="submit" class="btn submit-button">ENVIAR</button>
                             </div>
                         </form>
                     </div>
