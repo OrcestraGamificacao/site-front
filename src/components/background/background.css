@@ -45,3 +45,7 @@
     right: 3%;
     z-index: 999;
 }
+
+.logo {
+    width: 100px;
+}

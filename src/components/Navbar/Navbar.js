@@ -7,10 +7,8 @@ class Navbar extends Component {
         const logo = require('../../assets/images/Orc_estra_Logo1_horizontalEXP2.svg')
         return (
             <nav className="navbar navbar-expand-lg navbar-bg-color d-flex align-items-center sticky-top">
-                <Link to="/">
-                    <a className="navbar-brand resize-logo">
-                        <img className="logo-navbar" src={logo}/>
-                    </a>
+                <Link to="/" className="navbar-brand">
+                    <img className="logo" src={logo}/>
                 </Link>
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
