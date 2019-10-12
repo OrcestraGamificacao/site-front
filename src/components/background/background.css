@@ -49,3 +49,11 @@
 .logo {
     width: 100px;
 }
+
+.nav-item {
+    margin-left: 0;
+}
+
+.navbar-toggler:active, .navbar-toggler:focus {
+    outline: 0;
+}
