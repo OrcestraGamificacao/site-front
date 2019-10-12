@@ -1,5 +1,6 @@
 .img-bg-cards {
     width: 100%;
+    transform: translateY(-1px);
 }
 
 .big-card{
