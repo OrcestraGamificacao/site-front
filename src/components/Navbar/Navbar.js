@@ -7,26 +7,24 @@ class Navbar extends Component {
         const logo = require('../../assets/images/Orc_estra_Logo1_horizontalEXP2.svg')
         return (
             <nav className="navbar navbar-expand-lg navbar-bg-color d-flex align-items-center sticky-top">
-                <Link to="/">
-                    <a className="navbar-brand resize-logo">
-                        <img className="logo-navbar" src={logo}/>
-                    </a>
+                <Link to="/" className="navbar-brand">
+                    <img className="logo" src={logo}/>
                 </Link>
 
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse">
+                <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <Link to="/services">
-                                <a className="nav-link text-dark">Serviços</a>
+                            <Link to="/services" className="nav-link text-dark">
+                                Serviços
                             </Link>
                         </li>
-                        <li className="nav-item">
-                            <Link to="/portfolio">
-                                <a className="nav-link text-dark">Portifólio</a>
+                        <li className="nav-item" id="port">
+                            <Link to="/portfolio" className="nav-link text-dark">
+                                Portifólio
                             </Link>
                         </li>
                         <li className="nav-item">
