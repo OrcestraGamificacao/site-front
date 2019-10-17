@@ -1,0 +1,26 @@
+.page-container {
+    height: 100%;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.title {
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.submit-button {
+    width: 10rem;
+    background-color: #7aaf50;
+    color: white !important;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #18201b;
+}

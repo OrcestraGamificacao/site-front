@@ -35,7 +35,7 @@ class Navbar extends Component {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/about">
+                            <Link to="/contact">
                                 <button type="button" className="btn btn-success button-text">
                                     Diagnóstico Gratuito
                                 </button>
